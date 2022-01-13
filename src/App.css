@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #242424;
+  overflow: hidden;
+}
+
+.node circle {
+  fill: #f3f3ff;
+  stroke: #2593b8;
+  stroke-width: 1.5px;
+  r: 6;
+}
+
+.node text {
+  font-size: 12px;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  background-color: #444;
+  stroke-width: 0;
+  font-weight: bold;
+  fill: #f4f4f4;
+  text-shadow: 0 1px 4px black;
+}
+
+path.link {
+  fill: none;
+  stroke: #2593b8;
+  stroke-width: 1.5px;
+}
