@@ -16,11 +16,15 @@ const Header = ({ filter, setActiveNode, setFilter, searchOptions }) => {
 
   return (
     <Stack direction="column">
-      <Stack
-        direction="row"
-        spacing={1}
-        sx={{ pt: "12px", justifyContent: "center" }}
+      <Link
+        href="https://twitter.com/unpuy_tw"
+        underline="hover"
+        variant="body2"
+        sx={{ pt: "12px", color: "#f4f4f4" }}
       >
+        @unpuy_tw
+      </Link>
+      <Stack direction="row" spacing={1} sx={{ justifyContent: "center" }}>
         <Filter
           data={searchOptions}
           filter={filter}
@@ -42,15 +46,6 @@ const Header = ({ filter, setActiveNode, setFilter, searchOptions }) => {
         水平/垂直
       </StyledButton> */}
       </Stack>
-      <Link
-        href="https://twitter.com/unpuy_tw"
-        underline="hover"
-        variant="body2"
-        sx={{ color: "#f4f4f4" }}
-        gutterBottom
-      >
-        @unpuy_tw
-      </Link>
     </Stack>
   );
 };
