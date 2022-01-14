@@ -44,7 +44,10 @@ const TreeContainer = ({ data, activeNode, setActiveNode, filter }) => {
       root.children = newChildren;
     }
 
-    if (newChildren.length > 0 || root.name.toLowerCase() === filter) {
+    if (
+      newChildren.length > 0 ||
+      root.name.toLowerCase() === filter.toLowerCase()
+    ) {
       return root;
     }
     return null;

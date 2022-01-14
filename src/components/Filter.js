@@ -22,7 +22,7 @@ const Filter = ({ placeholder, data, filter, setFilter }) => {
   const handleChange = (_, value) => {
     // サジェスト候補をクリックされたパターン
     if (typeof value === "object") {
-      setFilter(value);
+      setFilter(value.name);
       return;
     }
 
