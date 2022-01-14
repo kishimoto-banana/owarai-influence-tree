@@ -45,8 +45,9 @@ const Header = ({ filter, setActiveNode, setFilter, searchOptions }) => {
       <Link
         href="https://twitter.com/unpuy_tw"
         underline="hover"
-        variant="subtitle2"
+        variant="body2"
         sx={{ color: "#f4f4f4" }}
+        gutterBottom
       >
         @unpuy_tw
       </Link>
