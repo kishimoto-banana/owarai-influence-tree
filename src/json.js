@@ -21,17 +21,6 @@ export default {
       ],
     },
     {
-      name: "シティーボーイズ",
-      id: "23cc06d6-5a2b-4fb8-a782-903d320082e0",
-      children: [
-        {
-          name: "シソンヌ",
-          id: "ea854fab-dae5-43e6-aa11-4e27427c16fb",
-          children: [],
-        },
-      ],
-    },
-    {
       name: "くりぃむしちゅー",
       id: "c4d889bc-670f-4427-b6e9-00de6c7634d1",
       children: [
@@ -1290,6 +1279,11 @@ export default {
       id: "1ce16005-01bb-4319-814f-4d4bec12022f",
       children: [
         {
+          name: "シソンヌ",
+          id: "ea854fab-dae5-43e6-aa11-4e27427c16fb",
+          children: [],
+        },
+        {
           name: "オリエンタルラジオ",
           id: "0f4de56b-f0e0-4081-98fc-b3211c995b01",
           children: [
@@ -1445,17 +1439,6 @@ export default {
         {
           name: "テンダラー",
           id: "234600e0-61d6-4e5d-b1e4-29e23458f1ed",
-          children: [],
-        },
-      ],
-    },
-    {
-      name: "GLAY",
-      id: "a3e57f07-7bf1-4e40-8e40-37665dafa4d0",
-      children: [
-        {
-          name: "放課後ハートビート",
-          id: "61ceb363-93d1-4d24-9f41-ad9c45c47496",
           children: [],
         },
       ],
