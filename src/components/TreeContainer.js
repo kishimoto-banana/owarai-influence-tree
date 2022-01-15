@@ -82,7 +82,7 @@ const TreeContainer = ({ data, activeNode, setActiveNode, filter }) => {
 
 const renderRectSvgNode = ({ nodeDatum, handleClick }) => (
   <g>
-    <circle onClick={() => handleClick(nodeDatum)} />
+    <circle r={6} onClick={() => handleClick(nodeDatum)} />
     <text dy={3.5} x={10}>
       {nodeDatum.name}
     </text>
